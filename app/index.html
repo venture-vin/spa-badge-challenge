@@ -14,7 +14,8 @@
     </div>
     <h1> SF Teachers </h1>
     <div id="content">
-
+    </div>
+    <div id='badges'>
     </div>
   </div>
 </body>
@@ -22,7 +23,7 @@
 <script id="teacher-list" type="text/x-handlebars-template">
   <ul>
     {{#teachers}}
-    <li><a href="/app/#{{name}}">{{name}}</a></li>
+    <li id="{{id}}"><a href="/app/#{{name}}">{{name}}</a></li>
     {{/teachers}}
   </ul>
 </script>
